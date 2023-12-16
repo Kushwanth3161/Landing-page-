@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_188544-9655.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    
+    background: rgba(174, 157, 157, 0.7); 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #e4dede;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+
+li a{
+    text-decoration: none;
+    color: #dbc8c8;
+    padding: 40px;
+    
+    /* Background color for each header element */
+}
+
+section{
+    padding: 175px;
+    display: none;
+    margin:  122px 12px 12px;
+    text-align: r;
+    position: fixed;
+    bottom: 0px;
+    width: 100%
+}
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Show the targeted section when the corresponding link is clicked */
+section:target {
+    display: block;
+    margin:  0px 0px 0px;
+}
